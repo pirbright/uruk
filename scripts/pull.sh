@@ -1,4 +1,4 @@
-REPO_PATH=$(gum input --placeholder "Enter path (leave blank for pwd): ")
+REPO_PATH=$(gum input --placeholder "Enter full path (leave blank for pwd): ")
 
 [ -n $REPO_PATH ] && export REPO_PATH=$REPO_PATH
 
